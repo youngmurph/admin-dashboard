@@ -37,6 +37,26 @@ li {
     line-height: 2rem;
 }
 
+.menu-1 > ul {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+}
+
+span {
+    font-family: 'robotobold';
+}
+
+.dashboard, .icon {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+span, .icon {
+    vertical-align: middle;
+    display: inline-block;
+}
+
 fieldset {
     border: none;
 }
@@ -58,13 +78,13 @@ input {
 
 .dashboard {
     min-height: 35px;
-    grid-column: 1 / 2;
+    /* grid-column: 1 / 2; */
     font-family: 'robotobold';
 }
 
 .dash {
     font-size: 22px;
-    grid-column: 2 / 3;
+    /* grid-column: 2 / 3; */
 }
 
 .container {
@@ -91,6 +111,12 @@ img {
     color: white;
     max-height: 1.2rem;
     padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#454545;
+    font-family: 'robotobold';
 }
 
 button {
@@ -195,4 +221,8 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
+}
+
+.right-side {
+    align-items: end;
 }
