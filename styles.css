@@ -193,7 +193,7 @@ button {
     max-width: 50px;
     border-radius: 50%;
     grid-column: 1 / 2;
-    background-image: url("/Users/conormurphy/repos/grid/admin-dashboard/dummy-profile-pic.jpg");
+    background-image: url("photo/dummy-profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,7 +206,7 @@ button {
     max-height: 20px;
     max-width: 20px;
     border-radius: 50%;
-    background-image: url("/Users/conormurphy/repos/grid/admin-dashboard/dummy-profile-pic.jpg");
+    background-image: url("photo/dummy-profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -353,7 +353,7 @@ button {
     max-height: 40px;
     max-width: 40px;
     border-radius: 50%;
-    background-image: url("/Users/conormurphy/repos/grid/admin-dashboard/dummy-profile-pic.jpg");
+    background-image: url("/photo/dummy-profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -364,7 +364,7 @@ button {
     max-height: 40px;
     max-width: 40px;
     border-radius: 50%;
-    background-image: url("/Users/conormurphy/repos/grid/admin-dashboard/dummy-profile-pic.jpg");
+    background-image: url("/photo/dummy-profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -375,7 +375,7 @@ button {
     max-height: 40px;
     max-width: 40px;
     border-radius: 50%;
-    background-image: url("/Users/conormurphy/repos/grid/admin-dashboard/dummy-profile-pic.jpg");
+    background-image: url("/photo/dummy-profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,7 +386,7 @@ button {
     max-height: 40px;
     max-width: 40px;
     border-radius: 50%;
-    background-image: url("/Users/conormurphy/repos/grid/admin-dashboard/dummy-profile-pic.jpg");
+    background-image: url("/photo/dummy-profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
