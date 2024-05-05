@@ -40,6 +40,31 @@ fieldset {
     border: none;
 }
 
+legend {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-family: 'robotobold';
+    color: #454545;
+}
+
+input {
+    width: 400px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #e2e8f0;
+}
+
+.dashboard {
+    min-height: 35px;
+    grid-column: 1 / 2;
+    font-family: 'robotobold';
+}
+
+.dash {
+    font-size: 22px;
+    grid-column: 2 / 3;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -69,6 +94,9 @@ img {
 .logo {
     grid-row: 1 / 2;
     font-family: 'robotobold';
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
 }
 
 .menu-1 {
@@ -98,7 +126,8 @@ img {
 }
 
 .main-content {
-    background-color: #9ca3af;
+    background-color: #e2e8f0;
+    font-size: 18px;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
@@ -111,6 +140,29 @@ img {
 .projects {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+}
+
+.projects > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    background-color: white;
+    min-height: 10rem;
+    border-radius: 10px;
+    box-shadow: 2px 11px 11px -5px rgba(0,0,0,0.33);
+    border-left: 7px solid #F4AB6A;
+}
+
+.announce-card, .trending-card {
+    background-color: white;
+    min-height: 14rem;
+    border-radius: 10px;
+    box-shadow: 2px 11px 11px -5px rgba(0,0,0,0.33);
+    border-left: 7px solid #F4AB6A;
 }
 
 .announcements {
