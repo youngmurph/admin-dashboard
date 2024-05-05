@@ -113,11 +113,29 @@ h1 {
     color: #454545;
 }
 
+h2 {
+    font-size: 1.1rem;
+    font-family: 'robotobold';
+    padding: 20px 0px 0px 20px;
+    color: #454545;
+}
+
 p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'robotoregular';
     padding: 0px 10px 15px 20px;
     overflow: hidden;
+}
+
+.smaller {
+    font-size: 0.8rem;
+}
+
+hr.solid {
+    border-bottom: 1px solid #454545;
+    opacity: 30%;
+    width: 300px;
+    margin-left: 25px
 }
 
 img {
@@ -189,7 +207,7 @@ button {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
     padding: 30px 10px 50px 10px;
 }
 
@@ -215,7 +233,7 @@ button {
 
 .announce-card, .trending-card {
     background-color: white;
-    min-height: 17rem;
+    min-height: 16rem;
     border-radius: 10px;
     box-shadow: 2px 11px 11px -5px rgba(0,0,0,0.33);
     border-left: 7px solid #F4AB6A;
@@ -240,4 +258,12 @@ button {
 
 .right-side {
     align-items: end;
+}
+
+.left-bottom {
+    margin-top: -30px;
+}
+
+.conor {
+    margin-bottom: 10px;
 }
